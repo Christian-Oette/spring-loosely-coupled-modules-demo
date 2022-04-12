@@ -12,7 +12,7 @@ When you run it, you should receive a similar output.
 
 The first two numbers are created in one module (producer) and the result is calculated in another (consumer).
 Both modules are completely independent to each other, but they share the same interface code base.
-Only the consumer implements the interface. Nevertheless the producer can also use autowiring to use the implementation
+Only the consumer implements the interface. However, the producer can also use auto wiring to use the implementation
 
 ## App - Run the application
 
@@ -30,4 +30,4 @@ Implements the interface. Calculates a summary and returns it.
 
 ## Interfaces
 
-Contains only the interface without implementations to allow loosly coupled modules.
+Contains only the interface without implementations to allow loosely coupled modules.
